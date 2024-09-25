@@ -1,0 +1,60 @@
+.mySkil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFF;
+    padding: 25px 40px;
+    border-radius: 20px;
+  }
+
+  .divColumn{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skilTec{
+    text-align: center;
+    font-size: 35px;
+    color: #FFF;
+  }
+
+  .sckils{
+    display: flex;
+    justify-content: center;
+    margin-top: 13%;
+  }
+
+  .imgSkil{
+    width: 50px;
+    height: 50px;
+    margin:12px 30px;
+    border-radius: 10px;
+    object-fit: fill;
+  }
+
+  #sk{
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    list-style: none;
+    font-weight: unset;
+  }
+
+  @media (max-width:1129px){
+    .mySkil{
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
+  @media (max-width:574px) {
+    .divColumn{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  
+
+  

@@ -1,0 +1,17 @@
+
+#Projects{
+    margin: 60px;
+}
+
+#container{
+    background-image: linear-gradient(
+        to top left,
+        rgb(47, 11, 243),
+        black
+    );
+}
+
+.footer{
+    margin-top: 100px;
+}
+

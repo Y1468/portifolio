@@ -1,0 +1,131 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 20px 40px;
+}
+
+
+.h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+#link:hover{
+    border: 2px solid #FFF;
+    padding: 9px 20px;
+    border-radius: 10px;
+    transition: 0.2s all;
+}
+
+.buton{
+    padding: 5px 15px;
+    height: 45px;
+    background-color:#00CED1;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.divPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#li{
+    margin: 0px 20px;
+}
+
+#link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.pages{
+    display: flex;
+    flex-direction: row;
+}
+
+.buton:hover{
+    background-color: #82F0E9;
+}
+
+.txtBtn{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.divLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+@media (max-width:735px) {
+    .header{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .divPage{
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width:534px) {
+   .pages{
+      display: flex;
+      flex-direction: column;
+      
+   }
+
+   .divPage{
+        background-color: #FFFFFF;
+        width: 80%;
+        border-radius: 10px;
+   }
+
+   #link{
+        color: #000;
+        font-weight: bold;
+   }
+
+   #link:hover{
+    border: 2px solid #000
+   }
+
+   #li{
+        list-style: none;
+        margin: 15px 0px;
+   }
+
+   .header{
+        padding-bottom: 80px;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
